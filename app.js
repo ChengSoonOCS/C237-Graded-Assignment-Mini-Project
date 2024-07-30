@@ -17,10 +17,10 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'c237_planka'
+host: 'mysql-cheng-soon-db.alwaysdata.net',
+user: '370892',
+password: 'ChengsoonDBpassword',
+database: 'cheng-soon-db_planka'
 });
 connection.connect((err) => {
 if (err) {
