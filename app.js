@@ -21,7 +21,7 @@ host: 'mysql-cheng-soon-db.alwaysdata.net',
 user: '370892',
 password: 'ChengsoonDBpassword',
 database: 'cheng-soon-db_planka'
-});
+}); //yoho
 connection.connect((err) => {
 if (err) {
 console.error('Error connecting to MySQL:', err);
